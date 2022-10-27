@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Ajay Krishna</title>
+
+  <meta name="author" content="Ajay Krishna">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Personal website of Ajay Krishna">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  
+  <script src="js/scramble.js"></script>
+  <script src="js/bibs.js"></script>
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <td class="block" style="padding-right: 5px;">
+        <p style="text-align: center;">
+          <name>Ajay Krishna</name><br>
+          <b>Email:</b>
+          <span id="emailid" style="display: inline-block;">
+            <noscript><i>Please enable Javascript to view</i></noscript>
+          </span>
+          <script>
+            emailScramble = new scrambledString(document.getElementById('emailid'), 'emailScramble', 'r@gm0kanajiia.cm.yaol7', [3, 13, 14, 15, 11, 1, 4, 5, 7, 8, 2, 17, 9, 6, 20, 22, 19, 10, 16, 21, 18, 12]);
+          </script>
+        </p>
+        <p>
+          Namaskara! I am an AI PhD student at Oregon State University advised by <a href="https://web.engr.oregonstate.edu/~sinisa/" target="_blank">Dr. Sinisa Todorovic</a>. My primary research interests are <b>uncertainty estimation and active learning for vision tasks on video data</b>.
+        </p>
+        <p>
+          I also currently serve as the Communications Officer for OSU's <a href="https://www.aigsa.club" target="_blank">AI Graduate Student Association</a> where I help spread the word about the social and professional events we organize for our AI community.
+        </p>
+        <p>
+          Previously, I earned a Masters in Computer Science from Oregon State University under the advisement of <a href="https://web.engr.oregonstate.edu/~chenliz/" target="_blank">Dr. Lizhong Chen</a>. My research back then was focused on accelerating and scaling vision models for large scale deployment.
+        </p>
+        <p style="text-align: center">
+          <!-- <a href="">CV</a> &nbsp/&nbsp -->
+          <a href="https://scholar.google.com/citations?user=baXnNDoAAAAJ&hl=en" target="_blank">Google Scholar</a> &nbsp|&nbsp
+          <a href="https://github.com/ajayosu/" target="_blank">GitHub</a> &nbsp|&nbsp
+          <a href="https://www.linkedin.com/in/aj-krishna/" target="_blank">LinkedIn</a>
+        </p>
+      </td>
+      <td class="block" style="text-align: center;">
+        <img style="width: 140pt; height: 140pt;" alt="profile photo" src="assets/ajay_krishna.avif" class="hoverZoomLink">
+      </td>
+    </tr>
+  </table>
+
+  <heading>
+    Research
+  </heading>
+  <p>
+    I'm interested in computer vision, machine learning, uncertainty estimation, and active learning. More specifically I am working on active learning schemes that explicitly incorporate the unique constraints of video data. To this end I am working on developing uncertainty estimation techniques tailored to vision tasks on video datasets.
+  </p>
+
+  <table>
+    <tr>
+      <td class="block" colspan="2" style="text-align: center">
+        <papertitle> A Distributed Scheme for Accelerating and Scaling PSPNet</papertitle><br>
+        <strong>Ajay Krishna</strong>, Xiang Gu, Andrew Larkin, Perry Hystad, Lizhong Chen<br>
+        <a href="https://www.american-cse.org/csce2021/conferences-ICAI" target="_blank"><em>The International Conference on Artificial Intelligence, 2021</em></a>
+        <p>
+          <a href="assets/pspnet_paper.pdf" target="_blank">Paper</a> | <a href="javascript:togglebib('pspnet_bib')">Bibtex</a>
+        </p>
+        <div class="codeblock" id="pspnet_bib" style="display: none; text-align: left;">
+        <pre style="white-space: pre-line"><code>@inproceedings{pspnet,
+author = {Krishna, Ajay and Gu, Xiang and Larkin, Andrew and Hystad, Perry and Chen, Lizhong},
+title = {A Distributed Scheme for Accelerating and Scaling PSPNet},
+booktitle = {Advances in Artificial Intelligence and Applied Cognitive Computing},
+year = {2021},
+month = {07},
+publisher = {Springer}
+}</code></pre>
+        </div>
+      </td>
+    </tr>
+
+    <tr style="border-bottom: 1pt dotted black;">
+      <td class="block" rowspan="2" style="text-align: center;">
+        <img src="assets/pspnet_fig.png" alt="pspnet infer times" width="300px">
+      </td>
+      <td class="block">
+        <p>
+          Advances in deep learning based image processing techniques have led to their adoption for a wide range of applications, and in tow with these developments is a dramatic increase in the availability of high quality datasets. With this comes the need to accelerate and scale deep learning applications in order to keep up with the size of data and best use available hardware resources. In this paper, we propose a useful scheme to enable accelerated and distributed deployment of PSPNet inferences, which allows scaling across disparate compute clusters with recourse for system instability and heterogeneity of resources. The systemic incorporation of multiprocessing paradigms and pipelining also allows the scheme to mitigate the time penalties of multiscale inference and significantly improves total inference times when used on extremely large datasets. The use of this distributed scheme to process close to 150,000 Google Street View images as part of a public health study has demonstrated excellent promise in addressing issues of deployment, maintenance, crash recovery, and dataset management at scale.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <footer style="text-align: right;">
+    <p>
+      Credits: <a href="https://jonbarron.info/" target="_blank">[1]</a>, <a href="https://jeffdonahue.com/" target="_blank">[2]</a>
+     </p>
+  </footer>
+
+</body>
+</html>
