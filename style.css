@@ -14,7 +14,7 @@ header {
   font-size: 20px;
   color: #D73F09;
   background-color: white;
-  border-bottom: 2px dotted black;
+  border-bottom: 1px solid black;
   text-align: center;
   position: sticky;
   top: 0;
@@ -25,7 +25,7 @@ header td {
 }
 
 footer {
-  border-top: 2px dotted black;
+  border-top: 1px solid black;
   text-align: right;
 }
 
