@@ -63,6 +63,12 @@ name {
   font-size: 32px;
 }
 
+bibtex {
+  border: 1px solid #D73F09;
+  border-radius: 5px;
+  padding: 2px;
+}
+
 .codeblock {
   color: black;
   background-color: lightgrey;
