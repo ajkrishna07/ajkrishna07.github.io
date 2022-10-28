@@ -9,6 +9,19 @@ body {
   text-align: justify;
 }
 
+header {
+  font-size: 20px;
+  color: #D73F09;
+  background-color: white;
+  border-bottom: 1pt dotted black;
+  text-align: center;
+}
+
+
+header td {
+  padding: 10px;
+}
+
 table {
   border-collapse: collapse;
 }
@@ -55,5 +68,10 @@ name {
   .block {
     display: block !important;
     width: 100% !important;
+  }
+
+  header table {
+    width: 100%;
+    table-layout: fixed;
   }
 }
