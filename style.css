@@ -83,13 +83,4 @@ name {
     table-layout: fixed;
   }
 
-  header {
-    border: 2px dotted black;
-    border-radius: 10px;
-    top: 10px;
-  }
-
-  heading {
-    scroll-margin-top: 57px;
-  }
 }
