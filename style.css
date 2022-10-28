@@ -20,13 +20,13 @@ header {
   top: 0;
 }
 
+header td {
+  padding: 10px;
+}
+
 footer {
   border-top: 2px dotted black;
   text-align: right;
-}
-
-header td {
-  padding: 10px;
 }
 
 table {
@@ -81,5 +81,15 @@ name {
   header table {
     width: 100%;
     table-layout: fixed;
+  }
+
+  header {
+    border: 2px dotted black;
+    border-radius: 10px;
+    top: 10px;
+  }
+
+  heading {
+    scroll-margin-top: 57px;
   }
 }
