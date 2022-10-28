@@ -4,6 +4,7 @@ body {
   max-width: 820px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 0px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: justify;
@@ -70,11 +71,6 @@ name {
   .block {
     display: block !important;
     width: 100% !important;
-  }
-
-  header {
-    border: 1pt dotted black;
-    border-radius: 5px;
   }
 
   header table {
