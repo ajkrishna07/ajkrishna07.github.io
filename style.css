@@ -22,6 +22,7 @@ header {
 
 footer {
   border-top: 2px dotted black;
+  text-align: right;
 }
 
 header td {
