@@ -1,6 +1,17 @@
+@font-face {
+  font-family: "Colfax";
+  src: url("assets/Colfax-Regular.otf");
+}
+
+@font-face {
+  font-family: "Colfax";
+  src: url("assets/Colfax-Medium.otf");
+  font-weight: bold;
+}
+
 body {
-  font-family: Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-family: "Colfax", Verdana, Helvetica, sans-serif;
+  font-size: 16px;
   max-width: 820px;
   margin-right: auto;
   margin-left: auto;
@@ -49,18 +60,18 @@ a:hover {
 }
 
 heading {
-  font-size: 26px;
+  font-size: 28px;
   scroll-margin-top: 45px;
 }
 
 papertitle {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
   color: #D73F09;
 }
 
 name {
-  font-size: 32px;
+  font-size: 38px;
 }
 
 bibtex {
