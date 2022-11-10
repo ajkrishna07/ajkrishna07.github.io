@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Colfax";
   src: url("assets/Colfax-Regular.otf");
-  font-display: optional;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Colfax";
   src: url("assets/Colfax-Medium.otf");
   font-weight: bold;
-  font-display: optional;
+  font-display: swap;
 }
 
 body {
